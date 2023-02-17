@@ -1,29 +1,28 @@
 package loops_arrays;
 
-import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
 
-        Scanner console = new Scanner(System.in); // вызов метода сканнер
-        System.out.print("Enter array size");
-        int size = console.nextInt(); // иниц переменной сайз - размер массива
+    int[] myArray = {0,56,-6,8,0,1,-5,89};
 
-        int [] myArray = new int[size]; // создание нового массива с размером сайз
+   for (int i = 0; i < myArray.length - 1; i++) {
+       for (int j = i + 1; j < myArray.length; j++){
+           if (myArray[i] > myArray[j]){
+               int temp = myArray[i];
+               myArray[i] = myArray[j];
+               myArray[j] = temp;
+           }
+       }
 
-        for (int i = 0; i < myArray.length; i++){ // наполнение массива элементами
-            System.out.println("Enter the value:  ");
-            myArray[i] = console.nextInt();
-        }
-        System.out.print("Your array is");
-        for (int x: myArray) {
-
+   }
+        for (int x : myArray) {
             System.out.print("[" + x + "]");
         }
         System.out.println();
 
 
-    }
+}
 }
 
 
