@@ -4,19 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="756a0fef-dc45-47f3-b997-971d50c6842d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/animals/Animals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/animals/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/animals/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/animals/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/animals/Sheep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/animals/getPaw_interface.java" afterDir="false" />
+    <list default="true" id="756a0fef-dc45-47f3-b997-971d50c6842d" name="Changes" comment="OOP principles in java">
+      <change afterPath="$PROJECT_DIR$/src/main/java/toymarket/Buyer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/toymarket/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/toymarket/Doll.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/toymarket/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/toymarket/Toy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/toymarket/ToyMarket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,12 +21,17 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="OOP" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -45,20 +45,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.animals.Main">
+}</component>
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Cat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="animals.Cat" />
       <module name="OOP" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="animals.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="toymarket.Main" />
+      <module name="OOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="toymarket.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,6 +88,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.animals.Main" />
         <item itemvalue="Application.Cat" />
       </list>
@@ -96,11 +110,27 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="OOP principles in java" />
+    <option name="LAST_COMMIT_MESSAGE" value="OOP principles in java" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
