@@ -4,14 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="756a0fef-dc45-47f3-b997-971d50c6842d" name="Changes" comment="OOP principles in java">
-      <change afterPath="$PROJECT_DIR$/src/main/java/toymarket/Buyer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/toymarket/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/toymarket/Doll.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/toymarket/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/toymarket/Toy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/toymarket/ToyMarket.java" afterDir="false" />
+    <list default="true" id="756a0fef-dc45-47f3-b997-971d50c6842d" name="Changes" comment="Toymarket_exercise_abstract_classes">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Calculatore_String/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Calculatore_String/InputHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Calculatore_String/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Calculator/Calculator_test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,13 +51,13 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Cat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="animals.Cat" />
+  <component name="RunManager" selected="JUnit.Calculator_test">
+    <configuration name="Calculatore_String.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Calculatore_String.Main" />
       <module name="OOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="animals.*" />
+          <option name="PATTERN" value="Calculatore_String.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,18 +78,60 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="animals.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="animals.Main" />
+    <configuration name="Calculator_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Calculator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Calculator" />
+      <option name="MAIN_CLASS_NAME" value="Calculator.Calculator_test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Calculator_test.testMinus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Calculator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Calculator" />
+      <option name="MAIN_CLASS_NAME" value="Calculator.Calculator_test" />
+      <option name="METHOD_NAME" value="testMinus" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Calculator_test.testSum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Calculator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Calculator" />
+      <option name="MAIN_CLASS_NAME" value="Calculator.Calculator_test" />
+      <option name="METHOD_NAME" value="testSum" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Calculator_test" />
+        <item itemvalue="JUnit.Calculator_test.testMinus" />
+        <item itemvalue="JUnit.Calculator_test.testSum" />
+        <item itemvalue="Application.Calculatore_String.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.animals.Main" />
-        <item itemvalue="Application.Cat" />
       </list>
     </recent_temporary>
   </component>
@@ -103,6 +144,14 @@
       <option name="presentableId" value="Default" />
       <updated>1676815452321</updated>
     </task>
+    <task id="LOCAL-00001" summary="Toymarket_exercise_abstract_classes">
+      <created>1676924603178</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1676924603178</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -130,7 +179,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="OOP principles in java" />
-    <option name="LAST_COMMIT_MESSAGE" value="OOP principles in java" />
+    <MESSAGE value="Toymarket_exercise_abstract_classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Toymarket_exercise_abstract_classes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
