@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="756a0fef-dc45-47f3-b997-971d50c6842d" name="Changes" comment="Calculator_first_test_Pattern_Matcher_Assert">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Collection_List/ComparatorByAge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Collection_List/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Collection_List/Student.java" afterDir="false" />
+    <list default="true" id="756a0fef-dc45-47f3-b997-971d50c6842d" name="Changes" comment="Collections ArrayList toString">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Collection_List/Main_Equals_Set.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Collection_List/Main_Map.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Revision/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Revision/Parrot.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Collection_List/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Collection_List/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/animals/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/animals/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/animals/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/animals/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +30,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="Interfaces_Collections" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -49,13 +53,13 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Collection_List.Main">
-    <configuration name="Calculatore_String.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Calculatore_String.Main" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Collection_List.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Collection_List.Main" />
       <module name="OOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Calculatore_String.*" />
+          <option name="PATTERN" value="Collection_List.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -63,8 +67,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Collection_List.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Collection_List.Main" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="animals.Main" />
+      <module name="OOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="animals.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main_Equals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Collection_List.Main_Equals" />
+      <module name="OOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Collection_List.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main_Map" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Collection_List.Main_Map" />
       <module name="OOP" />
       <extension name="coverage">
         <pattern>
@@ -91,45 +121,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Calculator_test.testMinus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="OOP" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Calculator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Calculator" />
-      <option name="MAIN_CLASS_NAME" value="Calculator.Calculator_test" />
-      <option name="METHOD_NAME" value="testMinus" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Calculator_test.testSum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="OOP" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Calculator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Calculator" />
-      <option name="MAIN_CLASS_NAME" value="Calculator.Calculator_test" />
-      <option name="METHOD_NAME" value="testSum" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main_Map" />
+        <item itemvalue="Application.Main_Equals" />
         <item itemvalue="Application.Collection_List.Main" />
         <item itemvalue="JUnit.Calculator_test" />
-        <item itemvalue="JUnit.Calculator_test.testMinus" />
-        <item itemvalue="JUnit.Calculator_test.testSum" />
-        <item itemvalue="Application.Calculatore_String.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -156,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676934389835</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Collections ArrayList toString">
+      <created>1677017906533</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1677017906533</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -186,7 +191,8 @@
     <MESSAGE value="OOP principles in java" />
     <MESSAGE value="Toymarket_exercise_abstract_classes" />
     <MESSAGE value="Calculator_first_test_Pattern_Matcher_Assert" />
-    <option name="LAST_COMMIT_MESSAGE" value="Calculator_first_test_Pattern_Matcher_Assert" />
+    <MESSAGE value="Collections ArrayList toString" />
+    <option name="LAST_COMMIT_MESSAGE" value="Collections ArrayList toString" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
