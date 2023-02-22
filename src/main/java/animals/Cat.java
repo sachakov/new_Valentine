@@ -1,6 +1,6 @@
 package animals;
 
-public class Cat implements Comparable<Cat>{
+public class Cat extends Animals implements Comparable<Cat>{
 
     @Override
     public int compareTo(Cat o) {
@@ -13,7 +13,8 @@ public class Cat implements Comparable<Cat>{
         private int age;
 
 
-        Cat(String name, int age){            //коструктор Кэт, принимающий стрингу и инт
+        Cat(String name, int age){
+            super(name, age);            //коструктор Кэт, принимающий стрингу и инт
             this.name = name;
             this.age = age;
         }
